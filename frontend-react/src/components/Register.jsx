@@ -39,7 +39,7 @@ const Register = () => {
         <div className='row justify-content-center'>
           <div className='col-md-6 bg-light-dark p-5 rounded'>
             <h3 className='text-light text-center mb-3'>Create an account</h3>
-            <form action="" onSubmit={handleRegistration}>
+            <form onSubmit={handleRegistration}>
               <div className='mb-3'>
                 <input type="text" className='form-control' placeholder='Enter username' value={username} onChange={(e) => setUsername(e.target.value)}/>
                 <small>{errors.username && <div className='text-danger'>{errors.username}</div>}</small>
