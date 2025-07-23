@@ -3,8 +3,7 @@ Stock Market Prediction Portal
 A full-stack web application that allows users to register, log in, and predict stock prices using a deep learning model (LSTM) trained on historical financial data. Built with React, Django REST Framework, and TensorFlow.
 
 Demo
-
-[Watch demo video](Internal storage/Movies/youcut/stock predicport.mp4)
+[🎥 Watch the demo](./demo.mp4)
 
 Features
 
